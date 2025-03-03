@@ -17,19 +17,19 @@
     padding: 15px;
     text-align: center;
     font-size: 18px;
-    display: flex;                /* Używamy flexboxa */
-    justify-content: space-between; /* Rozciąganie elementów na całej szerokości */
-    align-items: center;          /* Wyrównanie elementów w pionie */
+    display: flex;               
+    justify-content: space-between; 
+    align-items: center;          
   }
   
   header nav {
-    display: flex;                /* Używamy flexboxa dla nawigacji */
+    display: flex;              
   }
   
   header nav a {
     color: white;
     text-decoration: none;
-    margin: 0 15px;               /* Przestrzeń pomiędzy linkami */
+    margin: 0 15px;               
     font-weight: bold;
   }
   
