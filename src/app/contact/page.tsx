@@ -1,4 +1,4 @@
-"use client";  // To oznacza, że strona korzysta z funkcji klienta w Next.js (np. useState)
+"use client"; 
 
 import { useState } from "react";
 
@@ -9,7 +9,7 @@ export default function Kontakt() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     alert("Wiadomość wysłana");
-    // Można tu dodać dalszą logikę, np. wysyłanie formularza do serwera
+   
   };
 
   return (
